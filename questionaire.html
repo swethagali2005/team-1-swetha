@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geethanjali Institute Project</title>
+    <style>
+        .header {
+            background-color: white;
+         color: rgb(153, 0, 255);
+    padding: 10px;
+    text-align: left;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.logo {
+    height: 200px;
+}
+.header-text  {
+    color: rgb(55, 0, 255);
+    max-width: 800px;
+}
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:white;
+      color:black;
+    }
+
+    .header {
+      background: white;
+      color: red;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .header img {
+      height: 100px;
+    }
+
+    .sub-header {
+      color: black;
+      font-size: 14px;
+    }
+
+    .navbar {
+      background-color: #001f66;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: white;
+      display: inline-block;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: rgb(255, 0, 179);
+      color: black;
+    }
+    .main-section {
+      background: url('gist1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 85vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+        <img src="gist.jpeg"  alt="logo" class="logo" style="height: 200px;">
+        <div>
+        <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+        <div class="header-text">
+            A unit of USHODAYA EDUCATIONAL SOCIETY<br>
+            Approved by AICTE, New Delhi & Permanently Affiliated to JNTUA, Ananthapuram<br>
+            NAAC 'A' Grade Accredited Institution,An ISO 9001:2015 certified Institution<br>
+            Recognized under Sec. 2(f) & 12(B) of UGC Act, 1956<br>
+            3rd Mile, Bombay Highway, Gangavaram(V), Kovur(M), SPSR Nellore(Dt) 524137
+        
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="abstract.html">ABSTRACT</a>
+        <a href="introduction.html">INTRODUCTION</a>
+        <a href="surveydata.html">SURVEY DATA</a>
+        <a href="conclusion.html">CONCLUSION</a>
+        <a href="activitylog.html">ACTIVITY LOG</a>
+        <a href="questionaire.html">QUESTIONNAIRE</a>
+        <a href="surveypic.html">SURVEY PICTURES</a>
+        <a href="members.html">MEMBERS</a>
+    </div>
+   <title>Questionnaire Form</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 50px 20px;
+    }
+
+    .form-box {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 600px;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin: 12px 0 5px;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .radio-group {
+      margin-top: 10px;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h2>QUESTIONNAIRE FORM</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mobile" name="mobile" pattern="\d{10}" maxlength="10" required title="Enter exactly 10 digits">
+
+        <label for="aadhaar">Aadhaar Number:</label>
+        <input type="text" id="aadhaar" name="aadhaar" pattern="\d{12}" maxlength="12" required title="Enter exactly 12 digits">
+
+        <form>
+
+    <p>1. Do you attend regular health checkups?</p>
+    <input type="radio" name="regular_checkups" value="yes"> Yes<br>
+    <input type="radio" name="regular_checkups" value="no"> No<br><br>
+
+    <p>2. How often do you go for checkups?</p>
+    <input type="radio" name="checkup_frequency" value="monthly"> Monthly<br>
+    <input type="radio" name="checkup_frequency" value="3-6months"> Every 3–6 months<br>
+    <input type="radio" name="checkup_frequency" value="yearly"> Once a year<br>
+    <input type="radio" name="checkup_frequency" value="sick"> Only when sick<br>
+    <input type="radio" name="checkup_frequency" value="never"> Never<br><br>
+
+    <p>3. Have you been diagnosed with any health issues?</p>
+    <input type="radio" name="diagnosed" value="yes"> Yes (Please specify): 
+    <input type="text" name="diagnosed_specify"><br>
+    <input type="radio" name="diagnosed" value="no"> No<br><br>
+
+    <p>4. What kind of health issues have you experienced or are currently experiencing?</p>
+    <input type="checkbox" name="health_issues" value="thyroid"> Thyroid<br>
+    <input type="checkbox" name="health_issues" value="pcod"> PCOD/PCOS<br>
+    <input type="checkbox" name="health_issues" value="uterus"> Uterus problems<br>
+    <input type="checkbox" name="health_issues" value="diabetes"> Diabetes<br>
+    <input type="checkbox" name="health_issues" value="bp"> Blood pressure<br>
+    <input type="checkbox" name="health_issues" value="other"> Other: <input type="text" name="other_issue"><br><br>
+
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
